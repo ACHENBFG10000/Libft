@@ -3,16 +3,29 @@
 # Libft
 
 ## Description:
-**Libft** is a custom C library that re-implements standard C libary funtions(such as 'strlen', 'memcpy', 'atoi'), along with additional utility and linked list (ft_lst) function and all function of this directury star from ```ft_```.
+**Libft** It is fornst objecte of Common Core, all objecte of this directory start from ```ft_```. Consists of three parts.
 
-### Libc functions
+1. **Libc functions:**
+Custom C library that re-implements standard C libary funtions(such as 'strlen', 'memcpy', 'atoi').
 
-### Additional functions
+2. **Additional functions:**
+Develop a set of functions that are either not included in
+the libc.
 
-### linked list
+3. **linked list:**
+List funtions
 
 ## Instructions:
 
+### Features
+| Command       | Description |
+| - | - |
+| `make`        | Compiles the functions and creates `libft.a` |
+| `make clean`  | Removes all the object files end wiht ```.o```|
+| `make fclean` | Removes the object files end wiht ```.o``` and `libft.a` |
+| `make re`     | Runs `fclean` then `all` (`make`) |
+
+### Steps to Use
 
 1. Open your ternimal and navigate to this directory.
 
